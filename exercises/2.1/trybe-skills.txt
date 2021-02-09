@@ -1,3 +1,2 @@
-- Unix
-- Bash
-- Git
+- HTML
+- CSS
