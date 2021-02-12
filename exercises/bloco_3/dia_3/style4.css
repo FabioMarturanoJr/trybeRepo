@@ -1,0 +1,25 @@
+div:hover{
+    border: 4px solid black;
+}
+
+.primaria:hover{
+    background-color: green;
+}
+.secundaria:hover{
+    background-color: orange;
+}
+.complementar:hover{
+    background-color: greenyellow;
+}
+.dark:hover{
+    background-color: darkslategray;
+}
+.clear:hover{
+    background-color: lightgreen;
+}
+h3:active{
+    color: red;
+}
+.complementar{
+    size: 3em;
+}

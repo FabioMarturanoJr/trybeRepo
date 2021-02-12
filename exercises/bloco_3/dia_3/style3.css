@@ -1,0 +1,22 @@
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-roman;
+}
+li:hover{
+    background-color: black;
+    color: white;
+}
+li:active{
+    color: mediumseagreen;
+}
+li{
+    background-color: white;
+}
+p,h1{
+    text-align: center;
+}
+ul,ol{
+    list-style: none;
+}
