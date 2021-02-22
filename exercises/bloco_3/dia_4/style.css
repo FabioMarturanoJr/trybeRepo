@@ -4,7 +4,7 @@ header,nav,main,article,section,aside,footer{
     padding: 10px;
     border-radius: 8px;
 }
-article,aside{
+.inline{
     display: inline-block;
     margin: 10px;
 }
