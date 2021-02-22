@@ -1,0 +1,36 @@
+h1,h3 {
+        text-align: center;
+      }
+
+      .first {
+        background-color: rgb(235, 200, 84);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 200px;
+        margin-right: 35%;
+        margin-left: 40%;
+      }
+
+      .second {
+        background-color: rgb(219, 219, 219);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+        margin-left: 18%;
+      }
+
+      .third {
+        background-color: rgb(170, 142, 106);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+      }
+      .secPodio li,.secPremi li{
+        display: inline-block;
+      }
+      .secPremi ul{
+        text-align: center;
+      }

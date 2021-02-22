@@ -1,0 +1,18 @@
+header,nav,main,article,section,aside,footer{
+    border: 4px solid red;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+}
+article,aside{
+    display: inline-block;
+    margin: 10px;
+}
+article{
+    width: 60%;
+    height: 300px;
+}
+aside{
+    width: 20%;
+    height: 230px;
+}
