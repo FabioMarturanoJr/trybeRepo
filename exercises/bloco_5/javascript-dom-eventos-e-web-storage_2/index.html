@@ -58,26 +58,69 @@
   <body>
     
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      // parte 1
+
+      // 1
       let body = document.body;
-      let element = document.createElement("h1");
-      let conteudo = "Exercício 5.2 - JavaScript DOM";
-      element.innerHTML = conteudo;
-      body.appendChild(element);
+      let elementH1 = document.createElement("h1");
+      let conteudoH1 = "Exercício 5.2 - JavaScript DOM";
+      conteudoH1.innerText = conteudoH1;
+      body.appendChild(elementH1);
 
-      element = document.createElement("div");
-      element.className = "main-content";
-      body.appendChild(element);
+      // 2
+      let MainAppend = document.createElement("div");
+      MainAppend.className = "main-content";
+      body.appendChild(MainAppend);
 
-      let div = document.querySelector(".main-content");
-      element = document.createElement("div");
-      element.className = "center-content";
-      div.appendChild(element);
+      //3
+      let divMain = document.querySelector(".main-content");
+      let elementMain = document.createElement("div");
+      elementMain.className = "center-content";
+      divMain.appendChild(elementMain);
 
-      div = document.querySelector(".center-content");
-      element = document.createElement("p");
-      div.appendChild(element);
+      //4
+      let divCenter = document.querySelector(".center-content");
+      elementCenter = document.createElement("p");
+      divCenter.appendChild(elementCenter);
 
+      //5
+      let elementCenter2 = document.createElement("div");
+      elementCenter2.className = "left-content";
+      divMain.appendChild(elementCenter2);
+
+      //6
+      let elementMain2 = document.createElement("div");
+      elementMain2.className = "right-content";
+      divMain.appendChild(elementMain2);
+
+      //7
+      let divLeft = document.querySelector(".left-content");
+      elementIMG = document.createElement("img");
+      elementIMG.className = "small-image";
+      elementIMG.src = "https://picsum.photos/200";
+      divLeft.appendChild(elementIMG);
+
+      //8
+      let divRight = document.querySelector(".right-content");
+      let elementRight = document.createElement("ul");
+      divRight.appendChild(elementRight);
+
+      let myUl = document.querySelector("ul");
+      for (let i = 1; i < 11; i++) {
+        let myLi = document.createElement("li");
+        myUl.appendChild(myLi);
+      }
+      
+      //9
+      for (let i = 0; i < 3; i++) {
+        let mainH3 = document.createElement("h3");
+        divMain.appendChild(mainH3);
+      }
+
+      //Parte 2
+
+      elementH1.className = "title";
+ 
     </script>
   </body>
 </html>
