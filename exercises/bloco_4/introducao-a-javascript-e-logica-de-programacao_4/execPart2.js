@@ -85,7 +85,7 @@ function caracOccurre (listCarc){
     }
     quantyOccurre =0
   }
-  return caracMaxOccurre;
+  return maxQuantyOccurre;
 }
 
 let myListCarac = [2, 3, 2, 5, 8, 2, 3];
