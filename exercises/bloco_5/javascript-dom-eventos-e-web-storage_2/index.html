@@ -64,7 +64,7 @@
       let body = document.body;
       let elementH1 = document.createElement("h1");
       let conteudoH1 = "Exercício 5.2 - JavaScript DOM";
-      conteudoH1.innerText = conteudoH1;
+      elementH1.innerText = conteudoH1;
       body.appendChild(elementH1);
 
       // 2
@@ -119,7 +119,15 @@
 
       //Parte 2
 
+      // 1
       elementH1.className = "title";
+
+      //2
+      let H3main = document.querySelectorAll("h3");
+
+      for (const key in H3main) {
+        H3main[key].className = "description";
+      }
  
     </script>
   </body>
