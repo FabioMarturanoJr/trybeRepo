@@ -1,3 +1,21 @@
 body {
   margin: 5%;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.selects, #buttons {
+  margin: 20px 0 20px 0;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+}
+
+html {
+  background-color: #bdbec0;
+}
+
+h1 {
+  font-size: xx-large;
 }
