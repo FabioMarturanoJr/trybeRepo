@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>form</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/DatePickerX.min.css">
+  <link rel="stylesheet" href="css/justValidateTooltip.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,9 +15,9 @@
     <div >
       <h1>Dados Pessoais :</h1>
       <label for="name" class="form-label">Nome</label>
-      <input type="text" name="name" class="form-control" id="name" maxlength="40" required>      
+      <input type="text" name="name" class="form-control" id="name" data-validate-field="name" required>      
       <label for="email" class="form-label">Email</label>
-      <input type="email" name="email" class="form-control" id="email" maxlength="50" required>      
+      <input type="email" name="email" class="form-control" id="email" maxlength="50" data-validate-field="email" required>      
       <label for="cpf" class="form-label">CPF</label>
       <input type="text" class="form-control" id="cpf" name="cpf" maxlength="11" required>      
       <label for="endereco" class="form-label">Endereço</label>
@@ -55,6 +57,8 @@
     </div>
   </form>
   <div id="consolidado"></div>
+  <script src="js/just-validate.min.js"></script>
+  <script src="js/DatePickerX.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
