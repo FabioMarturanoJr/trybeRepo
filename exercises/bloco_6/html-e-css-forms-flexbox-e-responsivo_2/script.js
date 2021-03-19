@@ -21,25 +21,6 @@ dataInicial.DatePickerX.init({
   format: 'dd/mm/yyyy'
 });
 
-// function verificaDate() {
-//   dataInicial.addEventListener('focusout', () => {
-//     let day = parseInt(dataInicial.value.substring(0, 2));
-//     let mes = parseInt(dataInicial.value.substring(3, 5));
-//     let ano = parseInt(dataInicial.value.substring(6));
-  
-//     if(dataInicial.value.length != 10){
-//       alert("Quantidade de Caractes da 'Data inícial' Incorreto, verifique.");
-//     } else if (!(day > 0) || !(day < 32)) {
-//       alert("Dia data inicial errado, verifique.")
-//     } else if (!(mes > 0) || !(mes < 13)) {
-//       alert("Mês data inicial errado, verifique.")
-//     } else if (!ano > 0) {
-//       alert("Ano data inicial errado, verifique.")
-//     }
-  
-//   });
-// }
-
 const buttonSubmit  = document.querySelector("#submit");
 
 buttonSubmit.addEventListener("click", (event) => {
