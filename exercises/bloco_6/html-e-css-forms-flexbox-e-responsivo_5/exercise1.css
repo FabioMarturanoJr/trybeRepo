@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(236, 243, 235);
+}
+h1 {
+  background-color: #EF7C8E;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#pContainer {
+  margin: 20px;
+}
+h2 {
+  background-color: rgb(44, 44, 44);
+  color: rgb(236, 243, 235);
+  padding: 20px;
+}
+
+img {
+  margin: 5%;
+  border-radius: 10px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+}
+
+figcaption {
+  padding-bottom: 5%;
+  font-weight: 800;
+  font-size: x-large;
+  text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+  body, figcaption{
+    font-size: 1.5em;
+  }
+}
