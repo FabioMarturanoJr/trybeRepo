@@ -4,3 +4,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+@media Print {
+  html {
+    display: none;
+  }
+}
