@@ -12,7 +12,7 @@ h1 {
   margin-bottom: 10px;
 }
 #pContainer {
-  margin: 20px;
+  margin: 5%;
 }
 h2 {
   background-color: rgb(44, 44, 44);
@@ -41,4 +41,14 @@ figcaption {
   body, figcaption{
     font-size: 1.5em;
   }
+
+  #imgContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  figure {
+    width: 50%;
+  }
+
 }
