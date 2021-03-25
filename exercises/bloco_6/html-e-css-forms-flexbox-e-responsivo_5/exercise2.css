@@ -5,7 +5,7 @@ html {
   box-sizing: inherit;
 }
 
-@media Print {
+@media print {
   html {
     display: none;
   }
