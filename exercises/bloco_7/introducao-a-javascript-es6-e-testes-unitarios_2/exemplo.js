@@ -1,0 +1,32 @@
+const student1 = {
+  Html: 'Muito Bom',
+  Css: 'Bom',
+  JavaScript: 'Ótimo',
+  SoftSkills: 'Ótimo',
+};
+
+const student2 = {
+  Html: 'Bom',
+  Css: 'Ótimo',
+  JavaScript: 'Ruim',
+  SoftSkills: 'Ótimo',
+  Git: 'Bom', // chave adicionada
+};
+
+const listSkills = (student) => {
+  const arrayOfSkills = Object.keys(student);
+  for(index in arrayOfSkills){
+    console.log(index);
+    console.log(`${arrayOfSkills[index]}, Nível: ${student[arrayOfSkills[index]]}`);
+  }
+};
+
+console.log('Estudante 1');
+listSkills(student1);
+
+function somatoria(num) {
+  return (num === 1) ? num : num += somatoria(num -1)
+}
+
+console.log(somatoria(5));
+
