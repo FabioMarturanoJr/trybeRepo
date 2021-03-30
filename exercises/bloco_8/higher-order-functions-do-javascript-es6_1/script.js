@@ -25,7 +25,7 @@ const sorteio = (numBet) => (numRandom) => numBet === numRandom();
 
 const oneInTen = (tryAgain) => {
   let count = 0;
-  while(!tryAgain){
+  while (!tryAgain) {
     const numbBet = sorteio(randomNumber());
     const resultBet = numbBet(randomNumber);
     count++;
@@ -41,12 +41,14 @@ const checkAnswer = (feedback) => (answer) => feedback.toLowerCase() === answer.
 
 const feedback = checkAnswer('Quarenta e dois');
 
-// console.log(feedback('quarenta e dois'));
+const answer = 'quarenta e dois';
+
+// console.log(feedback(answer));
 
 //4
 const criaArray = (text ,lengthArr) => {
   const arrayDone = [];
-  for(arr = 0; arr < lengthArr; arr += 1){
+  for (arr = 0; arr < lengthArr; arr += 1) {
     arrayDone.push(`${text}${arr}`);
   }
   return arrayDone;
@@ -59,7 +61,7 @@ const checkAnswers = (feedbacks) => (answers) => (checkerAnswers) => checkerAnsw
 
 const verificaArrays = (arrOne, arrTwo) => {
   let corectAnswers = 0;
-  for(let ans in arrOne){
+  for (let ans in arrOne) {
     arrOne[ans] === arrTwo[ans] ? corectAnswers += 1 : null;
   }
   return corectAnswers;
