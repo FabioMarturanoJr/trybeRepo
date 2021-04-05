@@ -70,4 +70,6 @@ const verificaArrays = (arrOne, arrTwo) => {
 const feedtoCheck = checkAnswers(arrayFeedbacks);
 const theArraysToCheck = feedtoCheck(arrayAnswers);
 
-console.log(theArraysToCheck(verificaArrays));
+// console.log(theArraysToCheck(verificaArrays));
+
+
