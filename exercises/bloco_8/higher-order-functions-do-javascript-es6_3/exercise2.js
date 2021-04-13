@@ -96,3 +96,5 @@ const nameAndAge = () => books.map((book) => ({
 })).sort((a, b) => a.age - b.age);
 
 assert.deepStrictEqual(nameAndAge(), expectedResult);
+
+console.log(nameAndAge());
